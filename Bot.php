@@ -2,7 +2,7 @@
 
 $content = file_get_contents("php://input");
 
-define('token', 'YOURBOTTOKEN); // Replace 'YOURBOTTOKEN' with your bot's token provided from @BotFather
+define('token', 'YOURBOTTOKEN'); // Replace 'YOURBOTTOKEN' with your bot's token provided from @BotFather
 define('api', 'https://api.telegram.org/bot'.token.'/'); // Define API url(For your bot)
 define('botname', '@YOURBOTUSERHANDLE'); //Replace '@YOURBOTUSERHANDLE' with your bot userhandle EX: @Myphp_bot
 
