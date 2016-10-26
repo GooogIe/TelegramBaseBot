@@ -21,7 +21,7 @@ if($message['chat']['type'] == 'private'){ //Check where the message is coming f
   $cid = $message['chat']['id'];
 }
 
-function startsWith($word $con) //Define startswith function, check if ta word exist in a string
+function startsWith($word,$con) //Define startswith function, check if ta word exist in a string
 {
     return strncmp($word, $con, strlen($con)) === 0;
 }
